@@ -1,0 +1,83 @@
+.SignUpContainer {
+  width: 100vw;
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUp_header img {
+  width: 250px;
+  height: 250px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: space-evenly;
+  height: 43vh;
+}
+
+.signUpForm > div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.signUpForm > div > input {
+  padding: 1rem 1rem 1rem 3rem;
+  border-bottom: 1px solid #0099ff;
+  width: 50vw;
+  box-sizing: border-box;
+  background: none;
+  font-size: 0.9rem;
+  color: black;
+}
+
+.signUpForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 2rem;
+  color: #0099ff;
+}
+
+.signUpBtn {
+  background-color: #0099ff;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.signUp_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  height: 5rem;
+}
+
+.signUp_nav > p {
+  color: white;
+  font-size: 12px;
+}
+
+.signUp_nav a {
+  color: white;
+  background-color: #0099ff;
+  border-radius: 1rem;
+  width: 5rem;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+}
